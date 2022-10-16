@@ -22,7 +22,7 @@ set hlsearch "Deja resaltada la coincidencia de la búsqueda lo quitas con nohls
 set ignorecase "Is Case sensitive
 set foldmethod=manual "Plegar contenido manual o syntax
 set numberwidth=5 "Espacio de los números laterales
-" set autoread "lee y hace los cambios automáticos sin recargar"
+set autoread "lee y hace los cambios automáticos sin recargar
 " set shiftwidth=2 "Espacios sangria con tabulador
 " set ruler "Mostrar la posición en la barra inferior a la derecha
 " set smartcase
