@@ -78,15 +78,15 @@ nmap <leader>g :Goyo<CR>
 nmap <leader>G :Goyo!<CR>
 
 " FZF
-nnoremap <c-p> :Files<CR>
-nnoremap <c-g> :GitFiles<CR>
-nnoremap <C-a> :Ag<CR>
+" nnoremap <c-p> :Files<CR>
+" nnoremap <c-g> :GitFiles<CR>
+" nnoremap <C-a> :Ag<CR>
 
 " Teclas desactivadas
-" nnoremap <up> <nop>
-" nnoremap <down> <nop>
-" nnoremap <left> <nop>
-" nnoremap <right> <nop>
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
 
 " Agregando plantillas a nuestro buffer actual
 nnoremap ,html :-1read ~/.config/.vim/skeletons/skeleton.html<CR>
