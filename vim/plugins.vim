@@ -38,8 +38,9 @@ Plug 'junegunn/gv.vim'
 Plug 'sheerun/vim-polyglot' "Sintaxis de varios idiomas
 Plug 'ryanoasis/vim-devicons' "Iconos para el árbol de navegación
 Plug 'yggdroot/indentline' "Visualiza una linea en cada nivel de sangría
-Plug 'godlygeek/tabular' " Alineación con tabulación funciona con vim-markdown
-Plug 'preservim/vim-markdown'
+Plug 'plasticboy/vim-markdown'
+" Plug 'godlygeek/tabular' " Alineación con tabulación funciona con vim-markdown
+" Plug 'preservim/vim-markdown'
 " Plug 'nelstrom/vim-markdown-folding'
 
 " Status bar
