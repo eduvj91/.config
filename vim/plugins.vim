@@ -7,6 +7,7 @@
                                                                    
 
 
+
 call plug#begin('~/.vim/plugged')
 
 "Themes
@@ -33,7 +34,7 @@ Plug 'airblade/vim-gitgutter' " Visualiza los cambios Git
 Plug 'mhinz/vim-signify'
 Plug 'junegunn/gv.vim'
 
-.
+
 " Highlights syntax
 Plug 'sheerun/vim-polyglot' "Sintaxis de varios idiomas
 Plug 'ryanoasis/vim-devicons' "Iconos para el árbol de navegación
@@ -52,5 +53,11 @@ Plug 'vim-airline/vim-airline-themes' "Temas para airline
 Plug 'jiangmiao/auto-pairs' "Auto completado de paréntesis
 Plug 'alvan/vim-closetag' "Cambio de etiquetas dentro de símbolos especiales
 Plug 'machakann/vim-sandwich' " Envuelve lo seleccionado en con los símbolos que desees
+
+" Unity
+Plug 'tpope/vim-dispatch' " Utiliza la consola para poder dar utilidad
+Plug 'radenling/vim-dispatch-neovim' " Complemento para dispatch para Neo vim
+Plug 'OmniSharp/omnisharp-vim'
+
 
 call plug#end()

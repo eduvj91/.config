@@ -9,6 +9,7 @@
 
 set encoding=UTF-8 "Codificación de caracteres especiales latinos
 syntax on "Mostrar resaltado de sintaxis
+filetype indent plugin on " Necesita para funcionar algunos plugins Intel license
 set number "Mostrar números laterales
 set relativenumber "Números relativos
 set mouse=a "Utilizar el mouse
@@ -33,7 +34,6 @@ set autoread "lee y hace los cambios automáticos sin recargar
 " set laststatus=2 "Mostrar barra de status inferior
 " set backspace=indent,eol,start "Es cuantos espació como cuando esta al inicio de una linea
 " scriptencoding utf-8
-" filetype plugin on "Ni idea
 " set textwidth=90 "Limita el texto al ancho especificado y fuerza un salto de linea
 " set colorcolumn=+1 "Mostrar la linea con color
 " set cursorcolumn "Muestra una linea vertical donde está el cursor
@@ -59,14 +59,14 @@ colorscheme palenight
 
 " For wsl
 let g:clipboard = {
-      \   'name': 'win32yank-wsl',
-      \   'copy': {
-      \      '+': 'win32yank.exe -i --crlf',
-      \      '*': 'win32yank.exe -i --crlf',
-      \    },
-      \   'paste': {
-      \      '+': 'win32yank.exe -o --lf',
-      \      '*': 'win32yank.exe -o --lf',
-      \   },
-      \   'cache_enabled': 0,
+			\   'name': 'win32yank-wsl',
+			\   'copy': {
+			\      '+': 'win32yank.exe -i --crlf',
+			\      '*': 'win32yank.exe -i --crlf',
+			\    },
+			\   'paste': {
+			\      '+': 'win32yank.exe -o --lf',
+			\      '*': 'win32yank.exe -o --lf',
+			\   },
+			\   'cache_enabled': 0,
       \ }

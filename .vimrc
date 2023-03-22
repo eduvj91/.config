@@ -31,3 +31,4 @@ source ~/.config/vim/plug-settings/airline.vim
 source ~/.config/vim/plug-settings/coc.vim
 source ~/.config/vim/plug-settings/tabular.vim
 source ~/.config/vim/plug-settings/markdown.vim
+source ~/.config/vim/plug-settings/omniSharp.vim

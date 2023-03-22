@@ -8,13 +8,10 @@
 
 # Configuración
 
-Realizamos el manual en para la configuración inicial en el curso de Pro Work para windows
+Terminando de cargar las configuraciones correremos el siguiente comando para poder copiar en el porta papeles de windows.
 
-Aquí anotaremos configuraciones dedicadas a los plugins
-
-**super** esto esta super con este tema por que resalta _hola_
-
-```html
-<p>Esto es un parrafo</p>
-<p>Conquistador </p>
+```sh
+# Genera enlace simbólico para realizar el pegado
+sudo ln -s ~/.config/nvim/win32yank.exe /usr/bin/win32yank.exe
 ```
+
