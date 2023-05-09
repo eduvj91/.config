@@ -49,9 +49,9 @@ set spellfile=~/.config/.vim/dicAdd/dict.add
 " set background=dark
 " set termguicolors
 let g:gruvbox_contrast_dark = "hard"
-" colorscheme gruvbox
+colorscheme gruvbox
 " colorscheme ayu
-colorscheme palenight
+" colorscheme palenight
 " colorscheme onehalf
 " colorscheme onehalfdark
 " colorscheme bogster

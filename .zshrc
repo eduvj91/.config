@@ -127,4 +127,4 @@ export NVM_DIR="$HOME/.nvm"
 
 # Lenguaje terminal
 # export LANG=es_ES.UTF-8
-export LANG=es_MX.UTF-8
+# export LANG=es_MX.UTF-8
