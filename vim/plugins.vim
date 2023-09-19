@@ -21,7 +21,7 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 
 "IDE
 Plug 'easymotion/vim-easymotion' " Buscador inteligente
-Plug 'benmills/vimux' " Funciona con tmux
+!Plug 'benmills/vimux' " Funciona con tmux
 Plug 'christoomey/vim-tmux-navigator' " Navegación entre los splits vim
 Plug 'preservim/nerdtree' " Árbol de navegación lateral
 Plug 'scrooloose/nerdcommenter' " Comentarios rápidos
@@ -30,9 +30,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'} " Soporte para lenguaje
 
 " Git
 Plug 'tpope/vim-fugitive' " Utiliza Git desde Vim
-Plug 'airblade/vim-gitgutter' " Visualiza los cambios Git
-Plug 'mhinz/vim-signify'
-Plug 'junegunn/gv.vim'
+Plug 'junegunn/gv.vim' " Navegador de git log funciona de la mano con vim-fugitive
+Plug 'airblade/vim-gitgutter' " Visualiza los cambios Git con columnas y un diff
+" Plug 'mhinz/vim-signify' " Columna de signos para indicar modificaciones en el archivo trakeado diferentes a git
 
 
 " Highlights syntax
@@ -55,9 +55,9 @@ Plug 'alvan/vim-closetag' "Cambio de etiquetas dentro de símbolos especiales
 Plug 'machakann/vim-sandwich' " Envuelve lo seleccionado en con los símbolos que desees
 
 " Unity
-Plug 'tpope/vim-dispatch' " Utiliza la consola para poder dar utilidad
-Plug 'radenling/vim-dispatch-neovim' " Complemento para dispatch para Neo vim
-Plug 'OmniSharp/omnisharp-vim'
+" Plug 'tpope/vim-dispatch' " Utiliza la consola para poder dar utilidad
+" Plug 'radenling/vim-dispatch-neovim' " Complemento para dispatch para Neo vim
+" Plug 'OmniSharp/omnisharp-vim'
 
 
 call plug#end()

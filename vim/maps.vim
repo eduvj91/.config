@@ -20,7 +20,7 @@ nmap <leader>Q :q<CR>
 nmap <leader>% :so ~/.vimrc<CR>
 
 " Salto de linea
-imap jo <Esc>o
+" imap jo <Esc>o
 
 " Visual block mode
 map <leader>v <C-v>
@@ -83,10 +83,10 @@ nmap <leader>G :Goyo!<CR>
 " nnoremap <C-a> :Ag<CR>
 
 " Teclas desactivadas
-nnoremap <up> <nop>
-nnoremap <down> <nop>
-nnoremap <left> <nop>
-nnoremap <right> <nop>
+" nnoremap <up> <nop>
+" nnoremap <down> <nop>
+" nnoremap <left> <nop>
+" nnoremap <right> <nop>
 
 " Agregando plantillas a nuestro buffer actual
 nnoremap ,html :-1read ~/.config/.vim/skeletons/skeleton.html<CR>
